@@ -1,0 +1,31 @@
+# Documenting ProfileCard with custom `MDX` content
+
+This is a ProfileCard component for display some basic user details.
+
+import { Story, Meta } from "@storybook/addon-docs";
+import ProfileCard from "../components/ProfileCard/ProfileCard";
+
+<Meta title="ProfileCard" component={ProfileCard} />
+
+## ProfileCard
+
+Let's show two ProfileCard examples
+
+### ProfileCard1
+This is a Software Engineer's Profile
+
+<ProfileCard
+	name="John Doe"
+	occupation="Software Engineer"
+	imageUrl="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+/>
+
+
+### ProfileCard2
+This is a UX Engineer's Profile
+
+<ProfileCard
+	name="Jane Doe"
+	occupation="UX Engineer"
+	imageUrl="https://previews.123rf.com/images/gmast3r/gmast3r1411/gmast3r141100334/33865019-profile-icon-female-avatar-woman-portrait.jpg"
+/>
